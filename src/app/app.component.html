@@ -6,6 +6,7 @@
        />
       </div>
        <div>
-         <input [(ngModel)]="userName"/> 
+         <input (input)="onInput($event)" [(ngModel)]="userName"/> 
+         <span class = c>{{this.nameError}}</span>
        </div>
 <router-outlet></router-outlet>
