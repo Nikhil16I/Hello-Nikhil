@@ -1,5 +1,17 @@
 .div {
 text-align: center;
-font-size: x-large;
-font-weight: 9;
+font-size: small;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+}
+
+.error-output{
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
 }
